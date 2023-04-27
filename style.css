@@ -1,0 +1,200 @@
+body {
+    background-image: url(/Users/pedroandreia/Desktop/landing-page/imagens/Fundo_1900px_P&B.webp);
+    background-repeat: repeat-y;
+    background-size: cover;
+    color: white;
+    text-align: left;
+    margin-right: 80px;
+    font-family: 'Montserrat-regular', sans-serif;
+  }
+  
+  h1 {
+    font-size: 80px;
+    padding-top: 5px;
+    margin-bottom:5px;
+    color:green;
+    font-family: 'Aktuelle';
+    text-align: right;
+  }
+
+  h2 {
+    font-size: 30px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    color:white;
+  }
+  h3 {
+    font-size: 25px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    color:green;
+  }
+  
+  p {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+    opacity: 0.8;
+  }
+  
+  span {
+    color:green;
+  }
+  
+  ul {
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 1200px; }
+  
+  li {
+    display: inline;
+  }
+  
+  ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+  }
+  
+  ul li a:hover {
+    opacity: 0.7;
+  }
+    
+  
+  .nota-rodape {
+    font-size: 15px;
+    margin-top: 50px;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .botao {
+    font-size: 15px;
+    text-decoration:none;
+    text-align: center;
+    font-family: 'Montserrat-SemiBold';
+    background-color:#C1CF8E;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 1200px;
+    border-color: black;
+    border-style:double; }
+
+
+  .botao a {
+    text-decoration:none;
+     }
+  
+  .botao:hover {
+    opacity: 0,7;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: black;
+    text-align: right;
+  }
+
+  .container-txt{
+    padding: 1px;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+
+  .centered {
+    position: absolute;
+    top: 21%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+  }
+
+  .fundo-transparente{
+    background-color:beige;
+    opacity: 0,5;
+    margin: 20px;
+  }
+  .alinhar-dta{
+    text-align: right;
+  }
+  
+  
+  @media (max-width: 640px) {
+    body {
+      background-image: url(LP_575x400copy.webp);
+      background-repeat: repeat-y;
+      background-size: cover;
+      color: white;
+      text-align: left;
+      margin-right: 80px;
+      font-family: 'Montserrat-regular', sans-serif;
+    }
+  
+    h1 {
+      font-size: 70px;
+      margin-bottom: 70px;
+      padding-top: 180px;
+    }
+
+    h2{
+      font-size: 30px;
+      padding-top: 5px;
+      margin-bottom: 30px;
+      color:black;
+      }
+
+    .container {
+        position:fixed;
+        text-align: center;
+        color: black;
+        text-align: right;
+      }
+    
+  
+    p {
+      font-size: 30px;
+    }
+  
+    .segundo-paragrafo {
+      margin-top: 20px;
+    }
+  
+  }
+  
+  /* breakpoints mais comuns 
+  tlm: 640px
+  tablet:768px
+  laptop: 1024px
+  desktop: 1280px
+  xl desktop: 1536px
+  */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
